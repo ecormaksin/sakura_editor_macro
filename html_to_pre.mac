@@ -1,0 +1,8 @@
+﻿//キーボードマクロのファイル
+CurLineCenter(0);	// カーソル行をウィンドウ中央へ
+ReplaceAll('<', '&lt;', 4);	// すべて置換
+ReDraw(0);	// 再描画
+ReplaceAll('>', '&gt;', 4);	// すべて置換
+ReDraw(0);	// 再描画
+ReplaceAll('"', '&quot;', 4);	// すべて置換
+ReDraw(0);	// 再描画
